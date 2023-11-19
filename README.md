@@ -1,3 +1,3 @@
 # Express-hash---auth
 
-Auth training
+Hashing with Argon2 and Auth JWT training
