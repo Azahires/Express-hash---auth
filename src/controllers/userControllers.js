@@ -20,7 +20,7 @@ const getUserById = (req, res) => {
     if (users[0] != null) {
       res.json(users[0]);
     } else {
-      res.sendStatus(404).send("Not found");
+      res.sendStatus(404);
     }
   })
   .catch((err) => {
